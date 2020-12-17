@@ -1,0 +1,14 @@
+.testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    &__wrapper{
+        margin: 0 auto;
+    }
+
+    &__item{
+        width: 90%;
+        margin: 0 auto;
+        min-height: 300px;
+    }
+}

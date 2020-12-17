@@ -12,6 +12,7 @@ body{
 .container{
     max-width: 1140px;
     margin: 0 auto;
+    position: relative;
 }
 
 h2{
@@ -31,3 +32,4 @@ h2{
 @import 'blocks/how-work';
 @import 'blocks/select-paket';
 @import 'blocks/our-customers';
+@import 'blocks/testimonials';
