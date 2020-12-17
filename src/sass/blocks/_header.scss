@@ -1,0 +1,38 @@
+.header{
+    display: block;
+    background: url('../../img/bg-1.png') no-repeat 50%/cover;
+    height: 100vh;
+    
+    &__logo{
+        font-family: "MuseoSansCyrl-300";
+        color: $main-color;
+        font-size: 74px;
+        text-transform: uppercase;
+    }
+    &__title{
+        margin-top: 110px;
+        max-width: 905px;
+
+        h1{
+            font-family: "MuseoSansCyrl-900";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 50px;
+            line-height: 67px;
+    
+            color: #000000;
+        }
+        h4{
+            margin-top: 60px;
+            max-width: 791px;
+            font-family: 'MuseoSansCyrl-300';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+        }
+    }
+    &__btn{
+        margin-top: 60px;
+    }
+}

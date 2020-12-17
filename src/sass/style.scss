@@ -1,0 +1,33 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/fonts';
+
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+body{
+    background-color: #ffffff;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: 'MuseoSansCyrl-900';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+@import 'base/variable';
+@import 'blocks/form';
+
+@import 'blocks/header';
+@import 'blocks/cases';
+@import 'blocks/get-consultation';
+@import 'blocks/how-work';
+@import 'blocks/select-paket';
+@import 'blocks/our-customers';

@@ -1,0 +1,37 @@
+.btn{
+    width: 350px;
+    height: 60px;
+    border: transparent;
+    background: linear-gradient(268.32deg, #2FE99C 0%, #33B8B6 100%);
+    box-shadow: 0px 20px 30px rgba(98, 214, 179, 0.3);
+    
+    font-family: 'MuseoSansCyrl-500';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.btn.grey{
+    background: #F5F5F5;
+    box-shadow: none;
+}
+
+.dote{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    border: 1px solid $grey-color;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.dote.active{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #ffffff;
+    background: $main-color;
+    padding: 2px;
+    box-shadow: 0px 0px 1px 2px $main-color;
+}
