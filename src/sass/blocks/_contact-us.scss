@@ -12,5 +12,51 @@
     &__blocks{
         width: 100%;
         background: #FFFFFF;
+        margin-top: 50px;
+        padding: 50px 50px;
+        
+        &-block{
+            &-header{
+                display: flex;
+                justify-content: space-between;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 26px;
+                h2{
+                    display: inline-block;
+                    font-family: 'MuseoSansCyrl-700';
+                }
+                span{
+                    color: $main-color;
+                    display: inline-block;
+                }
+            }
+            &-body{
+                margin-top: 90px;
+                p{
+                    font-family: MuseoSansCyrl-500;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 22px;
+                    line-height: 29px;
+                }
+                &-form{
+                    margin-top: 40px;
+                    &-btn{
+                        text-align: right;
+                        button{
+                            margin-left: 15px;
+                            width: 165px;
+                            height: 60px;
+                            font-size: 18px;
+                        }
+                        button.grey{
+                            color: #ADADAD;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

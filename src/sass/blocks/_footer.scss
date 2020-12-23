@@ -1,0 +1,40 @@
+.footer{
+    min-height: 363px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    h2{
+        font-family: 'MuseoSansCyrl-700';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    &__contacts{
+        margin-top: 20px;
+        a{
+            display: block;
+            font-family: 'MuseoSansCyrl-700';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+            &:first-child{
+                color: #000000;
+            }
+            &:last-child{
+                color: $main-color;
+            }
+        }
+    }
+    &__social{
+        margin-top: 20px;
+    }
+    &__year{
+        text-align: center;
+        font-family: 'MuseoSansCyrl-300';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 129.4%;
+    }
+}
