@@ -37,4 +37,14 @@
         font-size: 16px;
         line-height: 129.4%;
     }
+    &__work-made{
+        text-align: right;
+        font-family: 'MuseoSansCyrl-300';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        a{
+            color: #DADADA;
+        }
+    }
 }

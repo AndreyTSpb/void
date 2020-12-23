@@ -11,7 +11,43 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <header class="header">
+    <!-- HAMBURGER FOR MENU -->
+    <aside class="hamburger">
+        <span></span>
+        <span class="long"></span>
+        <span></span>
+    </aside>
+
+    <!-- MENU -->
+    <div class="menu" style="display: none;">
+        <div class="menu__background">
+
+        </div>
+        <div class="menu__block">
+            <div class="menu__close">
+                <img src="img/Close.svg" alt="" srcset="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a  href="#header">ПРОЕКТ</a></li>
+                    <li><a  href="#keyses">КЕЙСЫ</a></li>
+                    <li><a  href="#how-work">КАК РАБОТАЕМ</a></li>
+                    <li><a  href="#select-paket">НАШИ ПАКЕТЫ</a></li>
+                    <li><a  href="#our-coustomers">НАШИ КЛИЕНТЫ</a></li>
+                    <li><a  href="#testimonials">ОТЗЫВЫ</a></li>
+                    <li><a  href="#footer">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+            <div class="menu__social">
+                <a href="#" class="menu__social-link"> <img src="img/fasebook-icon.svg" alt="" srcset=""> </a>
+                <a href="#" class="menu__social-link"> <img src="img/instagram-icon.svg" alt="" srcset=""> </a>
+                <a href="#" class="menu__social-link"> <img src="img/telegram-icon.svg" alt="" srcset=""> </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <section class="header" id="header">
         <div class="container">
             <div class="header__logo">
                 void
@@ -26,9 +62,10 @@
                 <button class="btn">Рассчитать проект</button>
             </div>
         </div>
-    </header>
+    </section>
 
-    <section class="cases">
+    <!-- CASES -->
+    <section class="cases" id="keyses">
         <div class="container">
             <h2>Кейсы</h2>
             <div class="cases__wrapper">
@@ -58,6 +95,7 @@
         </div>
     </section>
 
+    <!-- GET CONSULTATION -->
     <section class="get-consultation">
         <div class="container">
             <div>
@@ -70,7 +108,8 @@
         </div>
     </section>
 
-    <section class="how-work">
+    <!-- HOW WE WORK -->
+    <section class="how-work" id="how-work">
         <div class="container">
             <h2>Как мы работаем</h2>
             <div class="how-work__item active">
@@ -92,7 +131,8 @@
         </div>
     </section>
 
-    <section class="select-paket">
+    <!-- SELECT PACKEGE-->
+    <section class="select-paket" id="select-paket">
         <div class="container">
             <h2>Выбор пакета</h2>
             <div class="select-paket__wrapper">
@@ -118,7 +158,8 @@
         </div>
     </section>
 
-    <section class="our-customers">
+    <!-- OUR COUSTOMERS -->
+    <section class="our-customers" id="our-coustomers">
         <div class="container">
             <h2>Наши клиенты</h2>
             <div class="our-customers__wrapper">
@@ -166,7 +207,8 @@
         </div>
     </section>
 
-    <section class="testimonials">
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonials">
         <div class="container">
             <h2>Отзывы</h2>
             <div class="prev-btn">
@@ -199,6 +241,7 @@
         </div>
     </section>
 
+    <!-- CONTACT US -->
     <section class="contact-us">
         <div class="container">
             <h2>Оставьте заявку</h2>
@@ -226,7 +269,9 @@
             </div>
         </div>
     </section>
-    <section class="footer">
+
+    <!-- FOUTER -->
+    <section class="footer" id="footer">
         <div class="container">
             <h2>Есть проект? Напишите нам!</h2>
             <div class="footer__contacts">
@@ -239,7 +284,10 @@
                 <img src="img/instagram-icon.svg" alt="" srcset="">
             </div>
             <div class="footer__year">@2020</div>
+            <div class="footer__work-made"><a href="#">web developer:  tynyanyi@mail.ru</a></div>
         </div>
     </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
