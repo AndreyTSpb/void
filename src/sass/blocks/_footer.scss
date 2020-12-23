@@ -45,6 +45,9 @@
         font-size: 12px;
         a{
             color: #DADADA;
+            &:hover{
+                color: $main-color;
+            }
         }
     }
 }
